@@ -2,7 +2,7 @@
 Easy Screen Capture &amp; Recording Protection in .NET MAUI
 
 # ScreenShot
-![maui_prevent_capture](https://github.com/bho3538/EasyMAUICapturePrevent/assets/12496720/c18cb94b-e818-4cbd-b360-bcecb2b070fc)
+![maui_prevent_capture](https://github.com/bho3538/EasyMAUICapturePrevent/assets/12496720/e79fe6cc-1eb2-46c6-a9a0-3760afab8c79)
 
 # Supported Platform
 Android (tested on Android 13)\
