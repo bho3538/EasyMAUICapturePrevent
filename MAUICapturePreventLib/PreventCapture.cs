@@ -60,9 +60,10 @@ namespace MAUICapturePreventLib
                     dummyField.Frame = new CoreGraphics.CGRect(0, 0, 0, 0);
                     view.AddSubview(dummyField);
                     view.Layer.SuperLayer.AddSublayer(dummyField.Layer);
-                    if(dummyField.Layer.Sublayers.Length > 0)
+                    int len = dummyField.Layer.Sublayers.Length;
+                    if (len > 0)
                     {
-                        dummyField.Layer.Sublayers[0].AddSublayer(view.Layer);
+                        dummyField.Layer.Sublayers[len-1].AddSublayer(view.Layer);
                         return true;
                     }
 
